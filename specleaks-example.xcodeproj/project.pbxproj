@@ -14,8 +14,8 @@
 		3488D0AA27F9E2D1009C09D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3488D0A927F9E2D1009C09D2 /* Assets.xcassets */; };
 		3488D0AD27F9E2D1009C09D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3488D0AB27F9E2D1009C09D2 /* LaunchScreen.storyboard */; };
 		3488D0B827F9E2D1009C09D2 /* specleaks_exampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3488D0B727F9E2D1009C09D2 /* specleaks_exampleTests.swift */; };
-		3488D0C227F9E2D1009C09D2 /* specleaks_exampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3488D0C127F9E2D1009C09D2 /* specleaks_exampleUITests.swift */; };
-		3488D0C427F9E2D1009C09D2 /* specleaks_exampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3488D0C327F9E2D1009C09D2 /* specleaks_exampleUITestsLaunchTests.swift */; };
+		522E2CF2F285825C49CEE981 /* Pods_specleaks_example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24E490F625706039FE6207E4 /* Pods_specleaks_example.framework */; };
+		98C904DB23110D170B220A14 /* Pods_specleaks_exampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3324198C554719D4C694A080 /* Pods_specleaks_exampleTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +26,11 @@
 			remoteGlobalIDString = 3488D09C27F9E2CF009C09D2;
 			remoteInfo = "specleaks-example";
 		};
-		3488D0BE27F9E2D1009C09D2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3488D09527F9E2CF009C09D2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3488D09C27F9E2CF009C09D2;
-			remoteInfo = "specleaks-example";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		24E490F625706039FE6207E4 /* Pods_specleaks_example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_specleaks_example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3324198C554719D4C694A080 /* Pods_specleaks_exampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_specleaks_exampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3488D09D27F9E2CF009C09D2 /* specleaks-example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "specleaks-example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3488D0A027F9E2CF009C09D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3488D0A227F9E2CF009C09D2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -46,9 +41,10 @@
 		3488D0AE27F9E2D1009C09D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3488D0B327F9E2D1009C09D2 /* specleaks-exampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "specleaks-exampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3488D0B727F9E2D1009C09D2 /* specleaks_exampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = specleaks_exampleTests.swift; sourceTree = "<group>"; };
-		3488D0BD27F9E2D1009C09D2 /* specleaks-exampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "specleaks-exampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3488D0C127F9E2D1009C09D2 /* specleaks_exampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = specleaks_exampleUITests.swift; sourceTree = "<group>"; };
-		3488D0C327F9E2D1009C09D2 /* specleaks_exampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = specleaks_exampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3ABDCE5E7646954F73DCAF50 /* Pods-specleaks-example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-specleaks-example.debug.xcconfig"; path = "Target Support Files/Pods-specleaks-example/Pods-specleaks-example.debug.xcconfig"; sourceTree = "<group>"; };
+		521122811CB7F59CBA25B301 /* Pods-specleaks-exampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-specleaks-exampleTests.release.xcconfig"; path = "Target Support Files/Pods-specleaks-exampleTests/Pods-specleaks-exampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		9EFF2E39EE193265E572756D /* Pods-specleaks-example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-specleaks-example.release.xcconfig"; path = "Target Support Files/Pods-specleaks-example/Pods-specleaks-example.release.xcconfig"; sourceTree = "<group>"; };
+		E3CC9F7F9CA0D015E44E2EA4 /* Pods-specleaks-exampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-specleaks-exampleTests.debug.xcconfig"; path = "Target Support Files/Pods-specleaks-exampleTests/Pods-specleaks-exampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				522E2CF2F285825C49CEE981 /* Pods_specleaks_example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,26 +60,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3488D0BA27F9E2D1009C09D2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				98C904DB23110D170B220A14 /* Pods_specleaks_exampleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A4C942C0859DEC1E88B754B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3ABDCE5E7646954F73DCAF50 /* Pods-specleaks-example.debug.xcconfig */,
+				9EFF2E39EE193265E572756D /* Pods-specleaks-example.release.xcconfig */,
+				E3CC9F7F9CA0D015E44E2EA4 /* Pods-specleaks-exampleTests.debug.xcconfig */,
+				521122811CB7F59CBA25B301 /* Pods-specleaks-exampleTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		3488D09427F9E2CF009C09D2 = {
 			isa = PBXGroup;
 			children = (
 				3488D09F27F9E2CF009C09D2 /* specleaks-example */,
 				3488D0B627F9E2D1009C09D2 /* specleaks-exampleTests */,
-				3488D0C027F9E2D1009C09D2 /* specleaks-exampleUITests */,
 				3488D09E27F9E2CF009C09D2 /* Products */,
+				0A4C942C0859DEC1E88B754B /* Pods */,
+				519D8F00DE67D6B6C2C211A4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -91,7 +95,6 @@
 			children = (
 				3488D09D27F9E2CF009C09D2 /* specleaks-example.app */,
 				3488D0B327F9E2D1009C09D2 /* specleaks-exampleTests.xctest */,
-				3488D0BD27F9E2D1009C09D2 /* specleaks-exampleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -118,13 +121,13 @@
 			path = "specleaks-exampleTests";
 			sourceTree = "<group>";
 		};
-		3488D0C027F9E2D1009C09D2 /* specleaks-exampleUITests */ = {
+		519D8F00DE67D6B6C2C211A4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3488D0C127F9E2D1009C09D2 /* specleaks_exampleUITests.swift */,
-				3488D0C327F9E2D1009C09D2 /* specleaks_exampleUITestsLaunchTests.swift */,
+				24E490F625706039FE6207E4 /* Pods_specleaks_example.framework */,
+				3324198C554719D4C694A080 /* Pods_specleaks_exampleTests.framework */,
 			);
-			path = "specleaks-exampleUITests";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,9 +137,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3488D0C727F9E2D1009C09D2 /* Build configuration list for PBXNativeTarget "specleaks-example" */;
 			buildPhases = (
+				AFF03A0FADF1BFFAEA5F4B93 /* [CP] Check Pods Manifest.lock */,
 				3488D09927F9E2CF009C09D2 /* Sources */,
 				3488D09A27F9E2CF009C09D2 /* Frameworks */,
 				3488D09B27F9E2CF009C09D2 /* Resources */,
+				BD6EADB487DA23FCE9D54C85 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,9 +156,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3488D0CA27F9E2D1009C09D2 /* Build configuration list for PBXNativeTarget "specleaks-exampleTests" */;
 			buildPhases = (
+				6F5ABAD4033B9404E96EB41E /* [CP] Check Pods Manifest.lock */,
 				3488D0AF27F9E2D1009C09D2 /* Sources */,
 				3488D0B027F9E2D1009C09D2 /* Frameworks */,
 				3488D0B127F9E2D1009C09D2 /* Resources */,
+				4140E094227350884D960282 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -164,24 +171,6 @@
 			productName = "specleaks-exampleTests";
 			productReference = 3488D0B327F9E2D1009C09D2 /* specleaks-exampleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		3488D0BC27F9E2D1009C09D2 /* specleaks-exampleUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3488D0CD27F9E2D1009C09D2 /* Build configuration list for PBXNativeTarget "specleaks-exampleUITests" */;
-			buildPhases = (
-				3488D0B927F9E2D1009C09D2 /* Sources */,
-				3488D0BA27F9E2D1009C09D2 /* Frameworks */,
-				3488D0BB27F9E2D1009C09D2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3488D0BF27F9E2D1009C09D2 /* PBXTargetDependency */,
-			);
-			name = "specleaks-exampleUITests";
-			productName = "specleaks-exampleUITests";
-			productReference = 3488D0BD27F9E2D1009C09D2 /* specleaks-exampleUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -197,10 +186,6 @@
 						CreatedOnToolsVersion = 13.2.1;
 					};
 					3488D0B227F9E2D1009C09D2 = {
-						CreatedOnToolsVersion = 13.2.1;
-						TestTargetID = 3488D09C27F9E2CF009C09D2;
-					};
-					3488D0BC27F9E2D1009C09D2 = {
 						CreatedOnToolsVersion = 13.2.1;
 						TestTargetID = 3488D09C27F9E2CF009C09D2;
 					};
@@ -221,7 +206,6 @@
 			targets = (
 				3488D09C27F9E2CF009C09D2 /* specleaks-example */,
 				3488D0B227F9E2D1009C09D2 /* specleaks-exampleTests */,
-				3488D0BC27F9E2D1009C09D2 /* specleaks-exampleUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -244,14 +228,88 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3488D0BB27F9E2D1009C09D2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4140E094227350884D960282 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-specleaks-exampleTests/Pods-specleaks-exampleTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-specleaks-exampleTests/Pods-specleaks-exampleTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
 			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-specleaks-exampleTests/Pods-specleaks-exampleTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
-/* End PBXResourcesBuildPhase section */
+		6F5ABAD4033B9404E96EB41E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-specleaks-exampleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AFF03A0FADF1BFFAEA5F4B93 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-specleaks-example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD6EADB487DA23FCE9D54C85 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-specleaks-example/Pods-specleaks-example-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-specleaks-example/Pods-specleaks-example-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-specleaks-example/Pods-specleaks-example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3488D09927F9E2CF009C09D2 /* Sources */ = {
@@ -272,15 +330,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3488D0B927F9E2D1009C09D2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3488D0C227F9E2D1009C09D2 /* specleaks_exampleUITests.swift in Sources */,
-				3488D0C427F9E2D1009C09D2 /* specleaks_exampleUITestsLaunchTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -288,11 +337,6 @@
 			isa = PBXTargetDependency;
 			target = 3488D09C27F9E2CF009C09D2 /* specleaks-example */;
 			targetProxy = 3488D0B427F9E2D1009C09D2 /* PBXContainerItemProxy */;
-		};
-		3488D0BF27F9E2D1009C09D2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 3488D09C27F9E2CF009C09D2 /* specleaks-example */;
-			targetProxy = 3488D0BE27F9E2D1009C09D2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -434,6 +478,7 @@
 		};
 		3488D0C827F9E2D1009C09D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3ABDCE5E7646954F73DCAF50 /* Pods-specleaks-example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -462,6 +507,7 @@
 		};
 		3488D0C927F9E2D1009C09D2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EFF2E39EE193265E572756D /* Pods-specleaks-example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -490,6 +536,7 @@
 		};
 		3488D0CB27F9E2D1009C09D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3CC9F7F9CA0D015E44E2EA4 /* Pods-specleaks-exampleTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -510,6 +557,7 @@
 		};
 		3488D0CC27F9E2D1009C09D2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 521122811CB7F59CBA25B301 /* Pods-specleaks-exampleTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -525,42 +573,6 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/specleaks-example.app/specleaks-example";
-			};
-			name = Release;
-		};
-		3488D0CE27F9E2D1009C09D2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = FJHXR869BN;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.dannysantoso.specleaks-exampleUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "specleaks-example";
-			};
-			name = Debug;
-		};
-		3488D0CF27F9E2D1009C09D2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = FJHXR869BN;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.dannysantoso.specleaks-exampleUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "specleaks-example";
 			};
 			name = Release;
 		};
@@ -590,15 +602,6 @@
 			buildConfigurations = (
 				3488D0CB27F9E2D1009C09D2 /* Debug */,
 				3488D0CC27F9E2D1009C09D2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3488D0CD27F9E2D1009C09D2 /* Build configuration list for PBXNativeTarget "specleaks-exampleUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3488D0CE27F9E2D1009C09D2 /* Debug */,
-				3488D0CF27F9E2D1009C09D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
