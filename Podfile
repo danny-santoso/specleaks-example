@@ -5,7 +5,6 @@ target 'specleaks-example' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-  pod 'SpecLeaks', :git => 'https://github.com/dannysantoso/specleaks.git', :branch => 'master'
   pod 'RxSwift'
   pod 'RxCocoa'
 
