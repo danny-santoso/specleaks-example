@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		347DC7D327F9E65500171A4A /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347DC7D227F9E65500171A4A /* Helper.swift */; };
+		347DC7D527F9E71E00171A4A /* Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347DC7D427F9E71E00171A4A /* Delegate.swift */; };
+		347DC7D727F9E74F00171A4A /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347DC7D627F9E74F00171A4A /* Notification.swift */; };
+		347DC7D927F9E78F00171A4A /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347DC7D827F9E78F00171A4A /* Action.swift */; };
+		347DC7DB27F9E7C600171A4A /* Object.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347DC7DA27F9E7C600171A4A /* Object.swift */; };
 		3488D0A127F9E2CF009C09D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3488D0A027F9E2CF009C09D2 /* AppDelegate.swift */; };
 		3488D0A327F9E2CF009C09D2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3488D0A227F9E2CF009C09D2 /* SceneDelegate.swift */; };
 		3488D0A527F9E2CF009C09D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3488D0A427F9E2CF009C09D2 /* ViewController.swift */; };
@@ -31,6 +36,11 @@
 /* Begin PBXFileReference section */
 		24E490F625706039FE6207E4 /* Pods_specleaks_example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_specleaks_example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3324198C554719D4C694A080 /* Pods_specleaks_exampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_specleaks_exampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		347DC7D227F9E65500171A4A /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		347DC7D427F9E71E00171A4A /* Delegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Delegate.swift; sourceTree = "<group>"; };
+		347DC7D627F9E74F00171A4A /* Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
+		347DC7D827F9E78F00171A4A /* Action.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Action.swift; sourceTree = "<group>"; };
+		347DC7DA27F9E7C600171A4A /* Object.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Object.swift; sourceTree = "<group>"; };
 		3488D09D27F9E2CF009C09D2 /* specleaks-example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "specleaks-example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3488D0A027F9E2CF009C09D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3488D0A227F9E2CF009C09D2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -75,8 +85,33 @@
 				E3CC9F7F9CA0D015E44E2EA4 /* Pods-specleaks-exampleTests.debug.xcconfig */,
 				521122811CB7F59CBA25B301 /* Pods-specleaks-exampleTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		347DC7CF27F9E57800171A4A /* App */ = {
+			isa = PBXGroup;
+			children = (
+				3488D0A027F9E2CF009C09D2 /* AppDelegate.swift */,
+				3488D0A227F9E2CF009C09D2 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		347DC7D027F9E5F300171A4A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3488D0A927F9E2D1009C09D2 /* Assets.xcassets */,
+				3488D0AE27F9E2D1009C09D2 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		347DC7D127F9E64900171A4A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				347DC7D227F9E65500171A4A /* Helper.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 		3488D09427F9E2CF009C09D2 = {
@@ -102,13 +137,16 @@
 		3488D09F27F9E2CF009C09D2 /* specleaks-example */ = {
 			isa = PBXGroup;
 			children = (
-				3488D0A027F9E2CF009C09D2 /* AppDelegate.swift */,
-				3488D0A227F9E2CF009C09D2 /* SceneDelegate.swift */,
+				347DC7CF27F9E57800171A4A /* App */,
+				347DC7D127F9E64900171A4A /* Utils */,
 				3488D0A427F9E2CF009C09D2 /* ViewController.swift */,
+				347DC7DA27F9E7C600171A4A /* Object.swift */,
+				347DC7D427F9E71E00171A4A /* Delegate.swift */,
+				347DC7D627F9E74F00171A4A /* Notification.swift */,
+				347DC7D827F9E78F00171A4A /* Action.swift */,
 				3488D0A627F9E2CF009C09D2 /* Main.storyboard */,
-				3488D0A927F9E2D1009C09D2 /* Assets.xcassets */,
 				3488D0AB27F9E2D1009C09D2 /* LaunchScreen.storyboard */,
-				3488D0AE27F9E2D1009C09D2 /* Info.plist */,
+				347DC7D027F9E5F300171A4A /* Supporting Files */,
 			);
 			path = "specleaks-example";
 			sourceTree = "<group>";
@@ -317,8 +355,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				3488D0A527F9E2CF009C09D2 /* ViewController.swift in Sources */,
+				347DC7D527F9E71E00171A4A /* Delegate.swift in Sources */,
+				347DC7D727F9E74F00171A4A /* Notification.swift in Sources */,
 				3488D0A127F9E2CF009C09D2 /* AppDelegate.swift in Sources */,
+				347DC7D927F9E78F00171A4A /* Action.swift in Sources */,
 				3488D0A327F9E2CF009C09D2 /* SceneDelegate.swift in Sources */,
+				347DC7DB27F9E7C600171A4A /* Object.swift in Sources */,
+				347DC7D327F9E65500171A4A /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
