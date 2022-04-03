@@ -22,7 +22,7 @@ class Office {
     
     func doSomething(){
         let nakama = Person(name: "Danny Santoso")
-        employee!.tower = self
+        nakama.tower = self
         self.employee = nakama
     }
 }
