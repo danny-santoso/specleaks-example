@@ -1,3 +1,3 @@
 # specleaks-example
 
-Don't forget to install the pod first ya 👌🏻
+Don't forget to install pod first ya 👌🏻
